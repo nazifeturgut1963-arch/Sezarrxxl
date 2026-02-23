@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>SEZARRXXL</title>
+<style>
+body{
+    margin:0;
+    padding:0;
+    background:yellow;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.plak{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    background:black;
+    position:relative;
+    animation:don 4s linear infinite;
+}
+
+.plak img{
+    width:120px;       /* Ortadaki foto boyutu */
+    height:120px;
+    border-radius:50%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+
+@keyframes don{
+    from{transform:rotate(0deg);}
+    to{transform:rotate(360deg);}
+}
+</style>
+</head>
+<body>
+
+<div class="plak">
+    <img src="1771805242074.webp"> <!-- Ortadaki fotoğraf -->
+</div>
+
+<audio autoplay loop>
+    <source src="X Vechera - dethron Remix (_0pQAXphUpU_).mp4" type="audio/mp4">
+</audio>
+
+</body>
+</html>
